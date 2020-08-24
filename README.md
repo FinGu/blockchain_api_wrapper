@@ -5,7 +5,7 @@ php blockchain api wrapper
 require 'blockchain.php';
 require 'wallets.php';
 
-$instance = new blockchain\BlockChain('http://localhost:3000', 'api code');
+$instance = new blockchain\BlockChain('http://localhost:3000', 'api_code');
 
 $wallet = $instance->create_wallet('test password');
 
